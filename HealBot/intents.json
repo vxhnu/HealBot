@@ -1,0 +1,1025 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hey",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good"
+            ],
+            "responses": [
+                "Hi there, what can I do for you?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "Bye",
+                "See you later",
+                "Goodbye"
+            ],
+            "responses": [
+                "See you later, thanks for visiting \nHave a nice day"
+            ]
+        },
+        {
+            "tag": "work",
+            "patterns": [
+                "how do you work",
+                "what algorithm",
+                "algorithm use",
+                "how your algorithm works"
+            ],
+            "responses": [
+                "Sorry I can't say that !!! If you realy want to know you can contact us"
+            ]
+        },
+        {
+            "tag": "who",
+            "patterns": [
+                "who are you",
+                "who you",
+                "tell about  you",
+                "describe",
+                "you",
+                "what you",
+                "can do",
+                "what you do"
+            ],
+            "responses": [
+                "I am Symptom checker, you can enter your the symptoms you have and you can det a list of potential conditions that you may have !!"
+            ]
+        },
+        {
+            "tag": "Thanks",
+            "patterns": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Thank's a lot!"
+            ],
+            "responses": [
+                "Happy to help! Any time you need !"
+            ]
+        },
+        {
+            "tag": "joke",
+            "patterns": [
+                "Tell me a joke",
+                "Give me a joke",
+                "Share a joke"
+            ],
+            "responses": [
+                "Why did the doctor carry a red pen? In case they needed to draw blood!"
+            ]
+        },
+        {
+            "tag": "Common Cold",
+            "patterns": [
+                "cold, cough, tiredness, body pain",
+                "cold, cough, tiredness"
+            ],
+            "responses": [
+                "Looks like you're dealing with may Common Cold. This is a viral infection affecting the upper respiratory system.\nHere\u2019s what you can try:\n1. Get plenty of rest and stay hydrated.\n2. Take over-the-counter cold medications.\n3. Use a humidifier for congestion.\n4. If symptoms worsen, consult a doctor."
+            ],
+            "Precaution": [
+                "Tips to avoid common cold:\n1. Wash your hands frequently.\n2. Avoid close contact with infected individuals.\n3. Cover your mouth and nose when sneezing or coughing.\n4. Boost your immune system through a healthy diet and regular exercise."
+            ]
+        },
+        {
+            "tag": "Fever",
+            "patterns": [
+                "Fever"
+            ],
+            "responses": [
+                "Rest and drink plenty of fluids. Medication isn't needed. Call the doctor if the fever is accompanied by a severe headache, stiff neck, shortness of breath, or other unusual signs or symptoms. If you're uncomfortable, take paracetamol."
+            ],
+            "Precaution": [
+                "Tips to avoid fever:\n1. Stay hydrated.\n2. Rest and get plenty of sleep.\n3. Use fever-reducing medications as directed.\n4. Seek medical attention if fever persists or worsens."
+            ]
+        },
+        {
+            "tag": "Allergies",
+            "patterns": [
+                "sneezing, itchy eyes, runny nose, skin rash",
+                "sneezing, itchy eyes, runny nose",
+                "sneezing, skin rash, runny nose",
+                "runny nose, skin rash"
+            ],
+            "responses": [
+                "You might be experiencing allergies. Allergies are immune system reactions to allergens in the environment.\nHere\u2019s what you can try:\n1. Identify and avoid allergens if possible.\n2. Over-the-counter antihistamines may help relieve symptoms.\n3. Consult an allergist for a comprehensive evaluation and treatment plan."
+            ],
+            "Precaution": [
+                "Tips to avoid allergies:\n1. Identify and avoid allergens.\n2. Keep indoor environments clean and dust-free.\n3. Take allergy medications as prescribed.\n4. Consider allergy shots for long-term relief."
+            ]
+        },
+        {
+            "tag": "Asthma",
+            "patterns": [
+                "shortness of breath, wheezing, cough, chest tightness",
+                "shortness of breath, wheezing, cough",
+                "wheezing, cough",
+                "wheezing, cough, chest tightness",
+                "shortness of breath, chest tightness"
+            ],
+            "responses": [
+                "Sounds like you might have asthma. Asthma is a chronic respiratory condition that can cause breathing difficulties.\nHere\u2019s what you can try:\n1. Use prescribed inhalers or medications as directed.\n2. Avoid triggers that worsen symptoms (e.g., smoke, allergens).\n3. Consult a healthcare professional for asthma management and education."
+            ],
+            "Precaution": [
+                "Tips to avoid asthma:\n1. Identify and avoid asthma triggers.\n2. Use prescribed inhalers and medications regularly.\n3. Create an asthma action plan with your healthcare provider.\n4. Maintain a clean and allergen-free home environment."
+            ]
+        },
+        {
+            "tag": "Bronchial Asthma",
+            "patterns": [
+                "cough, fatigue, high fever, family history, mucoid sputum, breathlessness",
+                "cough, high fever, family history, mucoid sputum",
+                "cough, high fever,breathlessness",
+                "cough, breathlessness",
+                "cough, fatigue, family history"
+            ],
+            "responses": [
+                "Looks like you're dealing with Bronchial Asthma. Bronchial asthma is a chronic respiratory condition with symptoms like fatigue, cough, high fever, breathlessness, a family history of asthma, and mucoid sputum production.\nManaging bronchial asthma involves avoiding triggers, taking prescribed medications, and having an asthma action plan."
+            ],
+            "Precaution": [
+                "Tips to avoid bronchial asthma:\n1. Follow your asthma action plan.\n2. Avoid smoke and pollutants.\n3. Use a humidifier to keep air moist.\n4. Exercise regularly as recommended by your doctor."
+            ]
+        },
+        {
+            "tag": "Rheumatoid Arthritis",
+            "patterns": [
+                "joint pain, joint stiffness, swelling, fatigue",
+                "joint pain, joint stiffness, swelling",
+                "joint pain, joint stiffness, fatigue",
+                "joint stiffness, swelling, fatigue",
+                "joint stiffness, swelling",
+                "joint pain, swelling, fatigue"
+            ],
+            "responses": [
+                "Sounds like you might have Rheumatoid Arthritis. It's an autoimmune disease that affects the joints.\nHere\u2019s what you can try:\n1. Consult a rheumatologist for diagnosis and treatment.\n2. Medications and physical therapy may help manage symptoms.\n3. Maintain a healthy lifestyle with regular exercise."
+            ],
+            "Precaution": [
+                "Tips to avoid rheumatoid arthritis:\n1. Maintain a healthy weight.\n2. Exercise to strengthen joints and muscles.\n3. Take prescribed medications as directed.\n4. Consider physical therapy and joint protection techniques."
+            ]
+        },
+        {
+            "tag": "Arthritis",
+            "patterns": [
+                "painful walking, movement stiffness, muscle weakness, stiff neck, swelling joints",
+                "painful walking, movement stiffness, muscle weakness",
+                "painful walking, stiff neck, swelling joints",
+                "painful walking, movement stiffness, swelling joints",
+                "muscle weakness, stiff neck, swelling joints"
+            ],
+            "responses": [
+                "Looks like you're dealing with Arthritis. This is a condition that affects the joints.\nHere\u2019s what you can try:\n1. Seek medical advice for proper diagnosis and treatment.\n2. Follow prescribed medications and therapies.\n3. Manage pain with recommended treatments.\n4. Consider lifestyle changes to alleviate symptoms."
+            ],
+            "Precaution": [
+                "Tips to avoid arthritis:\n1. Maintain a healthy weight.\n2. Exercise regularly for joint health.\n3. Use joint protection techniques.\n4. Consider physical therapy and assistive devices if needed."
+            ]
+        },
+        {
+            "tag": "HIV/AIDS",
+            "patterns": [
+                "fatigue, weight loss, night sweats, recurrent infections",
+                "night sweats, recurrent infections",
+                "weight loss, night sweats, recurrent infections"
+            ],
+            "responses": [
+                "You might be at risk for HIV/AIDS. It's a viral infection that affects the immune system.\nHere\u2019s what you can try:\n1. Get tested for HIV and consult an infectious disease specialist.\n2. Early diagnosis and antiretroviral therapy can help manage the condition.\n3. Practice safe sex and take preventive measures."
+            ],
+            "Precaution": [
+                "Tips to avoid HIV/AIDS:\n1. Practice safe sex.\n2. Use clean needles and syringes if injecting drugs.\n3. Get tested for HIV regularly.\n4. Consider pre-exposure prophylaxis (PrEP) for high-risk individuals."
+            ]
+        },
+        {
+            "tag": "Ovarian Cancer",
+            "patterns": [
+                "abdominal pain, bloating, urinary frequency, fatigue",
+                "abdominal pain, urinary frequency, fatigue",
+                "abdominal pain, fatigue"
+            ],
+            "responses": [
+                "Sounds like you might have Ovarian Cancer. It's a type of cancer that affects the ovaries.\nHere\u2019s what you can try:\n1. Consult an oncologist for diagnosis and treatment options.\n2. Surgery, chemotherapy, and radiation therapy are common treatments.\n3. Early detection is crucial for better outcomes."
+            ],
+            "Precaution": [
+                "Tips to avoid ovarian cancer:\n1. Regular gynecological check-ups and screenings.\n2. Maintain a healthy diet and weight.\n3. Consider birth control pills or surgery for high-risk individuals.\n4. Be aware of family history."
+            ]
+        },
+        {
+            "tag": "Ovarian Cyst",
+            "patterns": [
+                "pelvic pain, bloating, irregular menstruation",
+                "pelvic pain, irregular menstruation"
+            ],
+            "responses": [
+                "Looks like it could be an Ovarian Cyst. It's a fluid-filled sac that can form on or within the ovaries.\nHere\u2019s what you can try:\n1. Consult a healthcare professional for diagnosis and treatment options.\n2. Treatment may involve observation, medication, or surgery depending on the size and symptoms of the cyst."
+            ],
+            "Precaution": [
+                "Tips to avoid ovarian cyst:\n1. Maintain a healthy diet and weight.\n2. Use birth control methods to prevent cyst formation.\n3. Manage stress and hormonal imbalances.\n4. Monitor and follow up on cysts with your doctor."
+            ]
+        },
+        {
+            "tag": "Pneumothorax",
+            "patterns": [
+                "sudden chest pain, shortness of breath, chest tightness",
+                "sudden chest pain, shortness of breath"
+            ],
+            "responses": [
+                "You might be experiencing Pneumothorax. It's a condition where air leaks into the space between the lung and the chest wall.\nHere\u2019s what you can try:\n1. Seek immediate medical attention, as it can be a medical emergency.\n2. Treatment may involve chest tube insertion to remove air and reinflate the lung."
+            ],
+            "Precaution": [
+                "Tips to avoid pneumothorax:\n1. Avoid smoking and exposure to secondhand smoke.\n2. Get prompt treatment for respiratory infections.\n3. Wear seatbelts to prevent chest trauma.\n4. Manage any underlying lung conditions."
+            ]
+        },
+        {
+            "tag": "Gout",
+            "patterns": [
+                "sudden and severe joint pain, swelling, redness",
+                "severe joint pain, swelling"
+            ],
+            "responses": [
+                "Sounds like you might have Gout. It's a type of arthritis caused by the buildup of uric acid crystals in the joints.\nHere\u2019s what you can try:\n1. Consult a rheumatologist for diagnosis and treatment.\n2. Medications and dietary changes can help manage symptoms and prevent flare-ups."
+            ],
+            "Precaution": [
+                "Tips to avoid gout:\n1. Maintain a healthy diet and weight.\n2. Limit alcohol and high-purine foods.\n3. Stay hydrated.\n4. Take prescribed medications as directed."
+            ]
+        },
+        {
+            "tag": "Chronic Fatigue Syndrome",
+            "patterns": [
+                "persistent fatigue, muscle pain, cognitive difficulties",
+                "persistent fatigue, muscle pain"
+            ],
+            "responses": [
+                "You may be experiencing Chronic Fatigue Syndrome (CFS). It's a complex disorder characterized by long-term, unexplained fatigue.\nHere\u2019s what you can try:\n1. Consult a healthcare professional for diagnosis and management.\n2. Treatment may involve lifestyle changes, pacing, and symptom management."
+            ],
+            "Precaution": [
+                "Tips to avoid chronic fatigue syndrome:\n1. Manage stress and get adequate rest.\n2. Gradually increase physical activity.\n3. Cognitive-behavioral therapy for symptom management.\n4. Maintain a balanced diet and stay hydrated."
+            ]
+        },
+        {
+            "tag": "Hypertension",
+            "patterns": [
+                "high blood pressure, headache, dizziness, chest pain",
+                "high blood pressure, headache, dizziness"
+            ],
+            "responses": [
+                "Sounds like you might have Hypertension (High Blood Pressure). It's a common condition where the force of blood against the artery walls is too high.\nHere\u2019s what you can try:\n1. Consult a healthcare professional for diagnosis and management.\n2. Lifestyle changes, such as a healthy diet and regular exercise, can help control blood pressure."
+            ],
+            "Precaution": [
+                "Tips to avoid hypertension:\n1. Reduce salt intake.\n2. Maintain a healthy diet and exercise regularly.\n3. Limit alcohol consumption.\n4. Take prescribed blood pressure medications as directed."
+            ]
+        },
+        {
+            "tag": "Type 2 Diabetes",
+            "patterns": [
+                "excessive thirst, frequent urination, fatigue, blurred vision",
+                "excessive thirst, frequent urination, blurred vision"
+            ],
+            "responses": [
+                "Looks like it could be Type 2 Diabetes. It's a chronic condition that affects how your body processes glucose (sugar).\nHere\u2019s what you can try:\n1. Consult a healthcare professional for diagnosis and treatment.\n2. Managing blood sugar through diet, exercise, and medications is essential."
+            ],
+            "Precaution": [
+                "Tips to avoid type 2 diabetes:\n1. Maintain a healthy diet and weight.\n2. Exercise regularly.\n3. Monitor blood sugar levels.\n4. Take prescribed medications as directed."
+            ]
+        },
+        {
+            "tag": "Diabetes",
+            "patterns": [
+                "irregular sugar level, fatigue, increased appetite, restlessness, weight loss, polyuria, blurred and distorted vision, lethargy, obesity, excessive hunger",
+                "irregular sugar level, increased appetite, restlessness, weight loss, excessive hunger",
+                "irregular sugar level, increased appetite, restlessness, weight loss",
+                "irregular sugar level, restlessness, weight loss, blurred and distorted vision, obesity, excessive hunger"
+            ],
+            "responses": [
+                "Looks like you're dealing with Diabetes. Diabetes is a metabolic disorder characterized by symptoms like fatigue, weight loss, restlessness, lethargy, irregular sugar levels, blurred and distorted vision, obesity, excessive hunger, increased appetite, and polyuria (excessive urination).\nManaging diabetes involves maintaining a healthy lifestyle, monitoring blood sugar levels, and adhering to a prescribed treatment plan."
+            ],
+            "Precaution": [
+                "Tips to avoid diabetes:\n1. Maintain a healthy diet and weight.\n2. Exercise regularly.\n3. Monitor blood sugar levels.\n4. Take prescribed medications as directed."
+            ]
+        },
+        {
+            "tag": "Osteoarthritis",
+            "patterns": [
+                "painful walking, hip joint pain, joint pain, neck pain, knee pain, swelling joints",
+                "painful walking, hip joint pain, swelling joints",
+                "joint pain, stiffness, reduced range of motion",
+                "joint pain, stiffness"
+            ],
+            "responses": [
+                "Sounds like you might have Osteoarthritis. It's a degenerative joint disease that can cause pain and stiffness in the joints.\nHere\u2019s what you can try:\n1. Consult a healthcare professional for diagnosis and treatment options.\n2. Physical therapy, pain management, and lifestyle changes can help manage symptoms."
+            ],
+            "Precaution": [
+                "Tips to avoid osteoarthritis:\n1. Maintain a healthy weight.\n2. Exercise to strengthen joints and muscles.\n3. Use joint protection techniques.\n4. Consider physical therapy if needed."
+            ]
+        },
+        {
+            "tag": "Migraine",
+            "patterns": [
+                "severe headache, nausea, sensitivity to light and sound",
+                "severe headache, nausea",
+                "severe headache, sensitivity to light and sound"
+            ],
+            "responses": [
+                "You might be experiencing a Migraine. It's a neurological condition characterized by intense, throbbing headaches.\nHere\u2019s what you can try:\n1. Consult a healthcare professional for diagnosis and treatment.\n2. Medications and lifestyle adjustments can help prevent and manage migraine attacks."
+            ],
+            "Precaution": [
+                "Tips to avoid migraine:\n1. Identify and avoid migraine triggers.\n2. Keep a headache diary.\n3. Take prescribed migraine medications as directed.\n4. Manage stress and get enough sleep."
+            ]
+        },
+        {
+            "tag": "GERD (Gastroesophageal Reflux Disease)",
+            "patterns": [
+                "cough, stomach pain, acidity, chest pain, vomiting, ulcers on tongue, heartburn",
+                "cough, stomach pain, acidity, chest pain, vomiting",
+                "cough, chest pain, vomiting, ulcers on tongue, heartburn"
+            ],
+            "responses": [
+                "Looks like you're dealing with GERD (Gastroesophageal Reflux Disease). This is a digestive disorder.\nHere\u2019s what you can try:\n1. Consult a doctor for diagnosis and treatment options.\n2. Lifestyle changes like diet and weight management may help.\n3. Medications can provide relief from symptoms.\n4. Elevate the head of your bed to reduce nighttime reflux."
+            ],
+            "Precaution": [
+                "Tips to avoid GERD (gastroesophageal reflux disease):\n1. Maintain a healthy weight.\n2. Avoid trigger foods and drinks.\n3. Elevate the head of your bed.\n4. Take prescribed medications as directed."
+            ]
+        },
+        {
+            "tag": "Urinary Tract Infection (UTI)",
+            "patterns": [
+                "painful urination, frequent urination, cloudy urine, abdominal pain",
+                "painful urination, frequent urination, abdominal pain",
+                "painful urination, frequent urination"
+            ],
+            "responses": [
+                "Sounds like you might have a Urinary Tract Infection (UTI). It's a bacterial infection that affects the urinary system.\nHere\u2019s what you can try:\n1. Consult a healthcare professional for diagnosis and treatment.\n2. Antibiotics are commonly prescribed to treat UTIs.\n3. Drink plenty of water and practice good hygiene to prevent future infections."
+            ],
+            "Precaution": [
+                "Tips to avoid urinary tract infection (UTI):\n1. Stay hydrated.\n2. Urinate regularly and empty your bladder.\n3. Wipe from front to back after using the toilet.\n4. Urinate before and after sexual activity."
+            ]
+        },
+        {
+            "tag": "Depression",
+            "patterns": [
+                "persistent sadness, loss of interest, fatigue, changes in sleep patterns",
+                "sadness, loss of interest, changes in sleep patterns",
+                "sadness, loss of interest, no sleep"
+            ],
+            "responses": [
+                "You might be experiencing Depression. It's a mood disorder characterized by persistent feelings of sadness and a loss of interest in activities.\nHere\u2019s what you can try:\n1. Consult a mental health professional for diagnosis and treatment options.\n2. Psychotherapy and medications can help manage depressive symptoms."
+            ],
+            "Precaution": [
+                "Tips to avoid depression:\n1. Seek help from a mental health professional.\n2. Build a support system.\n3. Engage in regular physical activity.\n4. Practice stress reduction techniques."
+            ]
+        },
+        {
+            "tag": "Anxiety",
+            "patterns": [
+                "excessive worry, restlessness, palpitations, muscle tension",
+                "restlessness, muscle tension",
+                "restlessness, palpitations, muscle tension"
+            ],
+            "responses": [
+                "Sounds like you might have Anxiety. It's a common mental health condition characterized by excessive worry and heightened stress.\nHere\u2019s what you can try:\n1. Consult a mental health professional for evaluation and treatment.\n2. Therapy, lifestyle changes, and medications can help manage anxiety symptoms."
+            ],
+            "Precaution": [
+                "Tips to avoid anxiety:\n1. Practice relaxation techniques.\n2. Identify and challenge anxious thoughts.\n3. Seek support from a therapist.\n4. Consider medication if recommended by a healthcare provider."
+            ]
+        },
+        {
+            "tag": "COPD",
+            "patterns": [
+                "shortness of breath, chronic cough, wheezing, chest tightness",
+                "shortness of breath, wheezing, chest tightness"
+            ],
+            "responses": [
+                "Sounds like you might have Chronic Obstructive Pulmonary Disease (COPD). It's a progressive lung disease that can cause breathing difficulties.\nHere\u2019s what you can try:\n1. Consult a healthcare professional for diagnosis and management.\n2. Medications, pulmonary rehabilitation, and lifestyle changes can help manage COPD symptoms."
+            ],
+            "Precaution": [
+                "Tips to avoid COPD (Chronic Obstructive Pulmonary Disease):\n1. Quit smoking or avoid exposure to smoke.\n2. Use prescribed inhalers and medications.\n3. Avoid lung irritants and pollutants.\n4. Engage in pulmonary rehabilitation if recommended."
+            ]
+        },
+        {
+            "tag": "Allergy",
+            "patterns": [
+                "continuous sneezing, watering from eyes, chills, shivering",
+                "continuous sneezing, watering from eyes"
+            ],
+            "responses": [
+                "Sounds like you might have Allergy. Allergy is a hypersensitivity disorder of the immune system. Common symptoms include continuous sneezing, shivering, chills, and watering from the eyes.\nTo manage Allergy, consider the following: \n1. Identify and avoid allergens that trigger your symptoms.\n2. Use antihistamines or decongestants as recommended by a doctor.\n3. Keep your living space clean and dust-free.\n4. Consult with an allergist for further evaluation and treatment options."
+            ],
+            "Precaution": [
+                "Tips to avoid allergy:\n1. Identify and avoid allergens.\n2. Keep indoor environments clean and dust-free.\n3. Take allergy medications as prescribed.\n4. Consider allergy shots for long-term relief."
+            ]
+        },
+        {
+            "tag": "Chronic Cholestasis",
+            "patterns": [
+                "loss of appetite, itching, abdominal pain, yellowish skin, vomiting, nausea, yellowing of eyes",
+                "itching, abdominal pain, yellowish skin, vomiting, yellowing of eyes",
+                "loss of appetite, itching, vomiting, nausea, yellowing of eyes"
+            ],
+            "responses": [
+                "Looks like you're dealing with Chronic Cholestasis. This is a condition affecting the liver and bile ducts.\nHere\u2019s what you can try:\n1. Consult a doctor for diagnosis and treatment.\n2. Medications may be prescribed to manage symptoms.\n3. Follow dietary recommendations.\n4. Monitor liver function regularly."
+            ],
+            "Precaution": [
+                "Tips to avoid chronic cholestasis:\n1. Manage underlying liver conditions.\n2. Follow a liver-healthy diet.\n3. Avoid excessive alcohol consumption.\n4. Take prescribed medications as directed."
+            ]
+        },
+        {
+            "tag": "Drug Reaction",
+            "patterns": [
+                "stomach pain, skin rash, itching, burning micturition, spotting urination",
+                "itching, burning micturition, spotting urination"
+            ],
+            "responses": [
+                "Looks like you're dealing with Drug Reaction Drug reactions can manifest with symptoms like itching, skin rash, stomach pain, burning micturition, and spotting urination.\nIf you suspect a drug reaction, consult your healthcare provider immediately for evaluation and appropriate steps."
+            ],
+            "Precaution": [
+                "Tips to avoid drug reaction:\n1. Take medications as prescribed by a healthcare provider.\n2. Report any adverse reactions to your doctor.\n3. Inform healthcare providers of any allergies.\n4. Avoid sharing medications with others."
+            ]
+        },
+        {
+            "tag": "Peptic ulcer disease",
+            "patterns": [
+                "loss of appetite, passage of gases, abdominal pain, vomiting, indigestion, internal itching",
+                "passage of gases, abdominal pain, vomiting, indigestion, internal itching"
+            ],
+            "responses": [
+                "Looks like you're dealing with Peptic ulcer disease. Symptoms of peptic ulcer disease may include vomiting, loss of appetite, abdominal pain, passage of gases, internal itching, and indigestion.\nFor the management of peptic ulcer disease, consult a gastroenterologist for diagnosis and treatment options."
+            ],
+            "Precaution": [
+                "Tips to avoid peptic ulcer disease:\n1. Manage stress.\n2. Avoid nonsteroidal anti-inflammatory drugs (NSAIDs).\n3. Follow a healthy diet and avoid spicy foods.\n4. Treat underlying H. pylori infection if present."
+            ]
+        },
+        {
+            "tag": "AIDS",
+            "patterns": [
+                "patches in throat, extra marital contacts, high fever, muscle wasting",
+                "patches in throat, high fever, muscle wasting"
+            ],
+            "responses": [
+                "Looks like you're dealing with AIDS (Acquired Immunodeficiency Syndrome). AIDS may present with symptoms such as muscle wasting, patches in the throat, high fever, and a history of extra-marital contacts.\nAIDS is a serious condition, and it is crucial to seek medical attention immediately for diagnosis, treatment, and counseling."
+            ],
+            "Precaution": [
+                "Tips to avoid AIDS:\n1. Practice safe sex.\n2. Use clean needles and syringes if injecting drugs.\n3. Get tested for HIV regularly.\n4. Consider pre-exposure prophylaxis (PrEP) for high-risk individuals."
+            ]
+        },
+        {
+            "tag": "Gastroenteritis",
+            "patterns": [
+                "diarrhoea, dehydration, sunken eyes, vomiting",
+                "diarrhoea, sunken eyes, vomiting"
+            ],
+            "responses": [
+                "Looks like you're dealing with Gastroenteritis. Gastroenteritis is an inflammation of the stomach and intestines, often causing symptoms such as vomiting, sunken eyes, dehydration, and diarrhea.\nTreatment for gastroenteritis includes staying hydrated and, in severe cases, seeking medical attention for rehydration therapy."
+            ],
+            "Precaution": [
+                "Tips to avoid gastroenteritis:\n1. Practice good hygiene and handwashing.\n2. Avoid contaminated food and water.\n3. Stay hydrated when ill.\n4. Follow public health guidelines for outbreaks."
+            ]
+        },
+        {
+            "tag": "Cervical Spondylosis",
+            "patterns": [
+                "dizziness, back pain, weakness in limbs, loss of balance, neck pain",
+                "back pain, loss of balance, neck pain"
+            ],
+            "responses": [
+                "Looks like you're dealing with Cervical Spondylosis. This is a condition affecting the neck and spine, leading to symptoms like neck pain and weakness in limbs.\nHere\u2019s what you can try:\n1. Physiotherapy for neck and spine.\n2. Use neck support devices if advised.\n3. Maintain good posture.\n4. Exercise and stretches for neck and back."
+            ],
+            "Precaution": [
+                "Tips to avoid cervical spondylosis:\n1. Maintain good posture.\n2. Exercise to strengthen neck muscles.\n3. Use ergonomic equipment.\n4. Consider physical therapy for symptom relief."
+            ]
+        },
+        {
+            "tag": "Paralysis (brain hemorrhage)",
+            "patterns": [
+                "headache, altered sensorium, weakness of one body side, vomiting",
+                "headache, altered sensorium, vomiting"
+            ],
+            "responses": [
+                "Looks like you're dealing with Paralysis due to Brain Hemorrhage. Brain hemorrhage may manifest with symptoms like vomiting, headache, weakness on one side of the body, and altered sensorium.\nImmediate medical attention and interventions are crucial for managing brain hemorrhage-related paralysis."
+            ],
+            "Precaution": [
+                "Tips to avoid paralysis (brain hemorrhage):\n1. Manage hypertension and other risk factors.\n2. Seek prompt medical attention for stroke symptoms.\n3. Follow a healthy lifestyle to reduce stroke risk.\n4. Control diabetes and cholesterol levels."
+            ]
+        },
+        {
+            "tag": "Jaundice",
+            "patterns": [
+                "high fever, fatigue, weight loss, itching, abdominal pain, vomiting, yellowish skin, dark urine",
+                "high fever, weight loss, itching, abdominal pain, vomiting, yellowish skin, dark urine",
+                "pale stools, yellow color inside mouth, dark or brown color urine"
+            ],
+            "responses": [
+                "Looks like you're dealing with Jaundice. Jaundice is a disease characterized by yellowing of the skin and eyes. It can be caused by various factors such as liver problems or infections. Here are four points to cure Jaundice:\n1. Get plenty of rest.\n2. Stay hydrated.\n3. Avoid alcohol and fatty foods.\n4. Consult a healthcare professional for further evaluation and treatment."
+            ],
+            "Precaution": [
+                "Tips to avoid jaundice:\n1. Prevent hepatitis through vaccination and safe sex practices.\n2. Practice good hygiene and food safety.\n3. Avoid excessive alcohol consumption.\n4. Seek prompt medical attention for liver-related symptoms."
+            ]
+        },
+        {
+            "tag": "Malaria",
+            "patterns": [
+                "sweating, high fever, muscle pain, headache, diarrhoea, vomiting, chills, nausea",
+                "sweating, high fever, muscle pain, headache, vomiting, chills, nausea",
+                "sweating, muscle pain, headache, vomiting, chills, nausea"
+            ],
+            "responses": [
+                "Looks like you're dealing with Malaria. Malaria is a mosquito-borne disease that can cause high fever and other symptoms. Here are four points to cure Malaria:\n1. Take antimalarial medications as prescribed by a doctor.\n2. Get plenty of rest.\n3. Stay hydrated.\n4. Use mosquito nets and repellents to prevent further mosquito bites."
+            ],
+            "Precaution": [
+                "Tips to avoid malaria:\n1. Use insect repellent and bed nets.\n2. Take prescribed antimalarial medications.\n3. Eliminate standing water to reduce mosquito breeding.\n4. Be aware of malaria risk in endemic areas."
+            ]
+        },
+        {
+            "tag": "Chicken pox",
+            "patterns": [
+                "red spots over body, high fever, fatigue, malaise, loss of appetite, headache, skin rash, itching, mild fever, swelled lymph nodes, lethargy",
+                "red spots over body, high fever, fatigue, malaise, lethargy",
+                "red spots over body, high fever",
+                "malaise, headache, skin rash, itching, mild fever, lethargy",
+                "red spots over body, high fever, malaise, headache, skin rash, mild fever, swelled lymph nodes"
+            ],
+            "responses": [
+                "Looks like you're dealing with Chicken pox. Chicken pox is a highly contagious viral infection that causes an itchy rash and flu-like symptoms. Here are four points to cure Chicken pox:\n1. Get plenty of rest.\n2. Keep the affected areas clean and avoid scratching.\n3. Take over-the-counter pain relievers to reduce fever and discomfort.\n4. Isolate yourself to prevent spreading the virus to others."
+            ],
+            "Precaution": [
+                "Tips to avoid chickenpox:\n1. Get vaccinated.\n2. Avoid close contact with infected individuals.\n3. Practice good hygiene.\n4. Use over-the-counter treatments for symptom relief."
+            ]
+        },
+        {
+            "tag": "Dengue",
+            "patterns": [
+                "high fever, fatigue, muscle pain, malaise, loss of appetite, headache, skin rash, vomiting, back pain, chills, nausea, joint pain, pain behind the eyes",
+                "high fever, muscle pain, headache, skin rash, vomiting",
+                "skin rash, vomiting, back pain, chills, nausea, joint pain, pain behind the eyes"
+            ],
+            "responses": [
+                "Looks like you're dealing with Dengue. Dengue is a mosquito-borne viral infection that can cause severe flu-like symptoms. Here are four points to cure Dengue:\n1. Stay hydrated by drinking plenty of fluids.\n2. Get plenty of rest.\n3. Monitor your platelet count and seek medical attention if it drops significantly.\n4. Use mosquito nets and repellents to prevent further mosquito bites."
+            ],
+            "Precaution": [
+                "Tips to avoid dengue:\n1. Prevent mosquito bites with repellent and protective clothing.\n2. Eliminate mosquito breeding sites.\n3. Get prompt medical attention for severe symptoms.\n4. Follow public health guidelines during outbreaks."
+            ]
+        },
+        {
+            "tag": "Typhoid",
+            "patterns": [
+                "high fever, fatigue, diarrhoea, abdominal pain, vomiting, toxic look (typhos), chills, nausea, belly pain, constipation",
+                "high fever, fatigue, abdominal pain, vomiting, belly pain",
+                "high fever, fatigue, diarrhoea, abdominal pain, toxic look, constipation"
+            ],
+            "responses": [
+                "Looks like you're dealing with Typhoid. Typhoid is a bacterial infection that can cause high fever and gastrointestinal symptoms. Here are four points to cure Typhoid:\n1. Take antibiotics as prescribed by a doctor.\n2. Stay hydrated and eat a bland diet.\n3. Practice good hygiene and wash your hands frequently.\n4. Rest and avoid strenuous activities."
+            ],
+            "Precaution": [
+                "Tips to avoid typhoid:\n1. Practice good hygiene and handwashing.\n2. Consume safe and well-cooked food and water.\n3. Consider typhoid vaccination for travel to endemic regions.\n4. Seek medical treatment if you suspect infection."
+            ]
+        },
+        {
+            "tag": "Hepatitis A",
+            "patterns": [
+                "muscle pain, loss of appetite, mild fever, diarrhoea, abdominal pain, vomiting, yellowish skin, nausea, joint pain, yellowing of eyes, dark urine",
+                "muscle pain, mild fever, abdominal pain, vomiting, nausea, joint pain, dark urine",
+                "muscle pain, loss of appetite, mild fever, diarrhoea, abdominal pain, vomiting, yellowish skin, nausea",
+                "muscle pain, loss of appetite, mild fever, vomiting"
+            ],
+            "responses": [
+                "Looks like you're dealing with Hepatitis A. Hepatitis A is a viral infection that affects the liver and can cause jaundice. Here are four points to cure Hepatitis A:\n1. Get plenty of rest.\n2. Stay hydrated and eat a balanced diet.\n3. Avoid alcohol and liver-damaging substances.\n4. Consult a healthcare professional for further evaluation and treatment."
+            ],
+            "Precaution": [
+                "Tips to avoid hepatitis A:\n1. Get vaccinated.\n2. Practice good hygiene and food safety.\n3. Avoid contaminated water and food.\n4. Consider immune globulin for immediate protection in high-risk situations."
+            ]
+        },
+        {
+            "tag": "Hepatitis B",
+            "patterns": [
+                "fatigue, malaise,loss of appetite, receiving unsterile injections, itching, receiving blood transfusion, abdominal pain, yellowish skin, yellow urine, yellowing of eyes, lethargy, dark urine",
+                "receiving unsterile injections, itching, receiving blood transfusion, yellow urine, yellowing of eyes, dark urine",
+                "fatigue, malaise, loss of appetite, itching, dark urine",
+                "receiving unsterile injections, itching, abdominal pain, yellowish skin, yellow urine, yellowing of eyes"
+            ],
+            "responses": [
+                "Looks like you're dealing with Hepatitis B. Hepatitis B is a viral infection that affects the liver and can lead to chronic liver disease. Here are four points to cure Hepatitis B:\n1. Consult a healthcare professional for antiviral treatment.\n2. Get vaccinated to prevent future infections.\n3. Practice safe sex and avoid sharing needles or personal items that may spread the virus.\n4. Limit alcohol consumption and maintain a healthy lifestyle."
+            ],
+            "Precaution": [
+                "Tips to avoid hepatitis B:\n1. Get vaccinated.\n2. Practice safe sex and avoid sharing needles.\n3. Seek medical treatment for infected individuals.\n4. Ensure healthcare workers follow standard precautions."
+            ]
+        },
+        {
+            "tag": "Hepatitis C",
+            "patterns": [
+                "fatigue, jaundice, abdominal pain, dark urine",
+                "fatigue, jaundice, abdominal pain",
+                "fatigue, abdominal pain, dark urine"
+            ],
+            "responses": [
+                "Sounds like you might have Hepatitis C. It's a viral infection that affects the liver.\nHere\u2019s what you can try:\n1. Consult a healthcare professional for diagnosis and treatment.\n2. Antiviral medications can be prescribed to manage Hepatitis C.\n3. Avoid alcohol and follow a liver-healthy diet."
+            ],
+            "Precaution": [
+                "Tips to avoid hepatitis C:\n1. Avoid sharing needles and practice safe sex.\n2. Seek medical treatment for infected individuals.\n3. Ensure healthcare workers follow standard precautions.\n4. Consider antiviral medications for high-risk individuals."
+            ]
+        },
+        {
+            "tag": "Hepatitis D",
+            "patterns": [
+                "fatigue, loss of appetite, abdominal pain, vomiting, yellowish skin, nausea, joint pain, yellowing of eyes, dark urine",
+                "fatigue, loss of appetite, abdominal pain, yellowish skin, nausea, joint pain, yellowing of eyes, dark urine",
+                "fatigue, abdominal pain, yellowish skin, joint pain, yellowing of eyes, dark urine",
+                "fatigue, loss of appetite, abdominal pain, vomiting, joint pain"
+            ],
+            "responses": [
+                "Looks like you're dealing with Hepatitis D. Hepatitis D is a viral infection that affects the liver and can worsen the symptoms of Hepatitis B. Here are four points to cure Hepatitis D:\n1. Consult a healthcare professional for antiviral treatment.\n2. Get vaccinated for Hepatitis B to prevent further infection.\n3. Avoid alcohol and liver-damaging substances.\n4. Follow medical advice and regular check-ups."
+            ],
+            "Precaution": [
+                "Tips to avoid hepatitis D:\n1. Get vaccinated against hepatitis B.\n2. Practice safe sex and avoid sharing needles.\n3. Seek medical treatment for infected individuals.\n4. Ensure healthcare workers follow standard precautions."
+            ]
+        },
+        {
+            "tag": "Hepatitis E",
+            "patterns": [
+                "high fever, fatigue, loss of appetite, stomach bleeding, abdominal pain, vomiting, yellowish skin, coma, nausea, joint pain, yellowing of eyes, dark urine",
+                "high fever, fatigue, stomach bleeding, abdominal pain, vomiting",
+                "high fever, coma, nausea, joint pain, yellowing of eyes, dark urine"
+            ],
+            "responses": [
+                "Looks like you're dealing with Hepatitis E. Hepatitis E is a viral infection that affects the liver and can cause severe symptoms. Here are four points to cure Hepatitis E:\n1. Seek immediate medical attention if symptoms are severe.\n2. Get plenty of rest and stay hydrated.\n3. Follow medical advice and treatment recommendations.\n4. Practice good hygiene to prevent further spread of the virus."
+            ],
+            "Precaution": [
+                "Tips to avoid hepatitis E:\n1. Practice good hygiene and safe food handling.\n2. Avoid drinking untreated water in endemic areas.\n3. Get prompt medical attention if you suspect infection.\n4. Consider the hepatitis E vaccine if traveling to high-risk regions."
+            ]
+        },
+        {
+            "tag": "Alcoholic hepatitis",
+            "patterns": [
+                "abdominal pain, yellowish skin, swelling of stomach, vomiting, history of alcohol consumption, distention of abdomen, fluid overload",
+                "yellowish skin, swelling of stomach, distention of abdomen, fluid overload",
+                "abdominal pain, swelling of stomach, vomiting, history of alcohol consumption"
+            ],
+            "responses": [
+                "Looks like you're dealing with Alcoholic hepatitis. This is a disease caused by excessive alcohol consumption.\nHere\u2019s what you can try:\n1. Stop consuming alcohol.\n2. Seek medical attention immediately.\n3. Rest and hydrate.\n4. Follow your doctor's advice."
+            ],
+            "Precaution": [
+                "Tips to avoid alcoholic hepatitis:\n1. Limit alcohol consumption or abstain.\n2. Seek help for alcohol dependence.\n3. Eat a balanced diet.\n4. Monitor liver health and seek medical attention for symptoms."
+            ]
+        },
+        {
+            "tag": "Tuberculosis",
+            "patterns": [
+                "sweating, cough, fatigue, high fever, malaise, weight loss, loss of appetite, chest pain, mild fever, phlegm, vomiting, chills, swelled lymph nodes, breathlessness, yellowing of eyes, blood in sputum",
+                "sweating, weight loss, loss of appetite, swelled lymph nodes, breathlessness, yellowing of eyes, blood in sputum",
+                "sweating, cough, fatigue, high fever, malaise, weight loss, Shortness of Breath"
+            ],
+            "responses": [
+                "Looks like you're dealing with Tuberculosis. This is a bacterial infection that affects the lungs.\nHere\u2019s what you can try:\n1. Seek immediate medical attention.\n2. Follow your doctor's treatment plan.\n3. Rest and maintain good hygiene.\n4. Isolate yourself to prevent the spread of the disease."
+            ],
+            "Precaution": [
+                "Tips to avoid tuberculosis:\n1. Get vaccinated if available.\n2. Take prescribed medications for latent TB infection.\n3. Practice good respiratory hygiene.\n4. Follow treatment and isolation protocols if diagnosed with active TB."
+            ]
+        },
+        {
+            "tag": "Common Cold",
+            "patterns": [
+                "loss of smell, cough, fatigue, high fever, malaise, runny nose, continuous sneezing, headache, congestion, redness of eyes, chest pain, phlegm, muscle pain, sinus pressure, chills, swelled lymph nodes, throat irritation",
+                "loss of smell, cough, runny nose, chills, swelled lymph nodes, throat irritation",
+                "cough, fatigue, high fever, runny nose,e continuous snezing, headache, congestion, redness of eyes",
+                "cold, cough, high fever, body pain"
+            ],
+            "responses": [
+                "Looks like you're dealing with Common Cold. This is a viral infection affecting the upper respiratory system.\nHere\u2019s what you can try:\n1. Get plenty of rest and stay hydrated.\n2. Take over-the-counter cold medications.\n3. Use a humidifier for congestion.\n4. If symptoms worsen, consult a doctor."
+            ],
+            "Precaution": [
+                "Tips to avoid common cold:\n1. Wash your hands frequently.\n2. Avoid close contact with infected individuals.\n3. Cover your mouth and nose when sneezing or coughing.\n4. Boost your immune system through a healthy diet and regular exercise."
+            ]
+        },
+        {
+            "tag": "Pneumonia",
+            "patterns": [
+                "sweating, cough, fatigue, high fever, malaise, fast heart rate, rusty sputum, chest pain, chills, breathlessness",
+                "sweating, cough, fatigue, rusty sputum, chest pain, chills",
+                "sweating, cough, fatigue, fast heart rate, rusty sputum, chest pain, chills, breathlessness"
+            ],
+            "responses": [
+                "Looks like you're dealing with Pneumonia. This is a bacterial or viral infection of the lungs.\nHere\u2019s what you can try:\n1. Seek immediate medical attention.\n2. Follow your doctor's prescribed antibiotics or treatments.\n3. Get plenty of rest and stay hydrated.\n4. Avoid smoking and maintain good hygiene."
+            ],
+            "Precaution": [
+                "Tips to avoid pneumonia:\n1. Get vaccinated against pneumonia and influenza.\n2. Practice good hand hygiene.\n3. Avoid smoking and limit exposure to smoke.\n4. Seek prompt medical attention for respiratory symptoms."
+            ]
+        },
+        {
+            "tag": "Dimorphic hemmorhoids(piles)",
+            "patterns": [
+                "pain in anal region, irritation in anus, bloody stool, pain during bowel movements, constipation",
+                "pain in anal region, irritation in anus, bloody stool, pain during bowel movements",
+                "pain in anal region, pain during bowel movements"
+            ],
+            "responses": [
+                "Looks like you're dealing with Dimorphic hemmorhoids(piles). This is a condition affecting the rectal area.\nHere\u2019s what you can try:\n1. Maintain a high-fiber diet to avoid constipation.\n2. Keep the anal area clean and dry.\n3. Use over-the-counter creams for relief.\n4. Consult a doctor for severe cases or bleeding."
+            ],
+            "Precaution": [
+                "Tips to avoid dimorphic hemorrhoids (piles):\n1. Maintain regular bowel habits and avoid straining.\n2. Use fiber supplements and sitz baths for relief.\n3. Stay hydrated and eat a high-fiber diet.\n4. Consider topical treatments for symptom relief."
+            ]
+        },
+        {
+            "tag": "Hypothyroidism",
+            "patterns": [
+                "fatigue, abnormal menstruation, cold hands and feets, mood swings, weight gain, dizziness, enlarged thyroid, swollen extremeties, brittle nails, depression, puffy face and eyes, irritability, lethargy",
+                "fatigue, cold hands and feets, mood swings, weight gain, sbrittle nails, depression, puffy face and eyes, irritability, lethargy",
+                "chills, brittle nails, depression, puffy face and eyes, irritability, lethargy",
+                "fatigue, abnormal menstruation, dizziness, enlarged thyroid"
+            ],
+            "responses": [
+                "Looks like you're dealing with Hypothyroidism. This is a condition where the thyroid gland does not produce enough thyroid hormones.\nHere\u2019s what you can try:\n1. Take thyroid medication as prescribed by your doctor.\n2. Maintain a balanced diet.\n3. Exercise regularly to boost metabolism.\n4. Manage stress and get regular check-ups."
+            ],
+            "Precaution": [
+                "Tips to avoid hypothyroidism:\n1. Take prescribed thyroid medications as directed.\n2. Follow up with regular thyroid function tests.\n3. Maintain a healthy diet and exercise routine.\n4. Be aware of potential thyroid disruptors."
+            ]
+        },
+        {
+            "tag": "Hyperthyroidism",
+            "patterns": [
+                "sweating, fatigue, fast heart rate, abnormal menstruation, restlessness, weight loss, mood swings, diarrhoea, muscle weakness, irritability, excessive hunger",
+                "sweating, fast heart rate, weight loss, mood swings, muscle weakness, irritability",
+                "sweating, fatigue, abnormal menstruation, restlessness, diarrhoea, muscle weakness, excessive hunger",
+                "sweating, fatigue, restlessness, diarrhoea, muscle weakness"
+            ],
+            "responses": [
+                "Looks like you're dealing with Hyperthyroidism. This is a condition where the thyroid gland produces too much thyroid hormone.\nHere\u2019s what you can try:\n1. Consult an endocrinologist for treatment options.\n2. Medication, radioactive iodine, or surgery may be recommended.\n3. Monitor your thyroid levels regularly.\n4. Maintain a healthy lifestyle."
+            ],
+            "Precaution": [
+                "Tips to avoid hyperthyroidism:\n1. Take prescribed medications as directed.\n2. Follow up with regular thyroid function tests.\n3. Manage stress and avoid excessive iodine intake.\n4. Consider radioactive iodine therapy if recommended by your doctor."
+            ]
+        },
+        {
+            "tag": "Hypoglycemia",
+            "patterns": [
+                "sweating, fatigue, headache, drying and tingling lips, slurred speech, vomiting, anxiety, nausea, blurred and distorted vision, irritability, palpitations, excessive hunger",
+                "sweating, fatigue, headache, blurred and distorted vision, irritability, palpitations, excessive hunger",
+                "sweating, fatigue, headache, irritability, excessive hunger",
+                "sweating, fatigue, headache, drying and tingling lips, slurred speech, vomiting, anxiety, nausea"
+            ],
+            "responses": [
+                "Looks like you're dealing with Hypoglycemia. This is a condition characterized by low blood sugar levels.\nHere\u2019s what you can try:\n1. Consume fast-acting carbohydrates like glucose tablets or juice.\n2. Follow a balanced diet with regular meals and snacks.\n3. Carry a medical ID indicating hypoglycemia.\n4. Consult a healthcare provider for diabetes management if necessary."
+            ],
+            "Precaution": [
+                "Tips to avoid hypoglycemia:\n1. Monitor blood sugar levels regularly.\n2. Eat regular meals and snacks.\n3. Carry glucose or sugar sources for emergencies.\n4. Adjust diabetes medications as advised by a healthcare provider."
+            ]
+        },
+        {
+            "tag": "Acne",
+            "patterns": [
+                "blackheads, skin rash, scurring, pus filled pimples",
+                "skin rash, scurring, pus filled pimples",
+                "blackheads, skin rash, pimples"
+            ],
+            "responses": [
+                "Looks like you're dealing with Acne. This is a common skin condition characterized by pimples and skin inflammation.\nHere\u2019s what you can try:\n1. Maintain good skincare hygiene.\n2. Use acne treatments recommended by a dermatologist.\n3. Avoid picking or squeezing pimples.\n4. Consider dietary and lifestyle changes."
+            ],
+            "Precaution": [
+                "Tips to avoid acne:\n1. Maintain a daily skincare routine.\n2. Avoid excessive washing and harsh products.\n3. Manage stress.\n4. Consider topical or oral acne treatments as recommended by a dermatologist."
+            ]
+        },
+        {
+            "tag": "Psoriasis",
+            "patterns": [
+                "inflammatory nails, small dents in nails, skin rash, silver like dusting, skin peeling, joint pain,Plaque psoriasis, Skin pain, Nail psoriasis,Itchy skin",
+                "skin peeling, joint pain,Plaque psoriasis, Skin pain, Nail psoriasis ,Itchy skin",
+                "skin rash, silver like dusting, Skin pain, Nail psoriasis, Itchy skin"
+            ],
+            "responses": [
+                "Looks like you're dealing with Psoriasis. This is a chronic skin condition with various symptoms.\nHere\u2019s what you can try:\n1. Consult a dermatologist for proper diagnosis.\n2. Treatments may include topical medications and phototherapy.\n3. Moisturize regularly and avoid triggers.\n4. Manage stress to reduce flare-ups."
+            ],
+            "Precaution": [
+                "Tips to avoid psoriasis:\n1. Follow a skincare routine and keep skin moisturized.\n2. Manage stress to prevent flare-ups.\n3. Consider phototherapy or topical treatments.\n4. Adhere to prescribed medications and therapies."
+            ]
+        },
+        {
+            "tag": "Impetigo",
+            "patterns": [
+                "blister, high fever, red sore around nose, yellow crust ooze, skin rash",
+                "high fever, red sore around nose, skin rash"
+            ],
+            "responses": [
+                "Looks like you're dealing with Impetigo. This is a highly contagious skin infection.\nHere\u2019s what you can try:\n1. Consult a doctor for diagnosis and antibiotic treatment.\n2. Maintain good hygiene to prevent spreading.\n3. Avoid close contact with others during infection.\n4. Follow prescribed medications and creams."
+            ],
+            "Precaution": [
+                "Tips to avoid impetigo:\n1. Practice good hand hygiene.\n2. Avoid close skin-to-skin contact.\n3. Use a clean towel and clothing.\n4. Take prescribed antibiotics as directed."
+            ]
+        },
+        {
+            "tag": "Fungal Infection",
+            "patterns": [
+                "dischromic patches, nodal skin eruptions, skin rash, itching",
+                "dischromic patches, skin rash, itching",
+                "nodal skin eruptions, skin rash, itching"
+            ],
+            "responses": [
+                "Looks like you're dealing with a Fungal Infection. This can affect the skin and cause various symptoms.\nHere\u2019s what you can try:\n1. Consult a dermatologist for diagnosis and antifungal treatment.\n2. Keep the affected area clean and dry.\n3. Avoid tight clothing that can trap moisture.\n4. Practice good personal hygiene."
+            ],
+            "Precaution": [
+                "Tips to avoid fungal infection:\n1. Keep skin clean and dry.\n2. Avoid sharing personal items.\n3. Use antifungal creams or medications as directed.\n4. Wear clean and breathable clothing."
+            ]
+        },
+        {
+            "tag": "Heart Attack",
+            "patterns": [
+                "sweating, chest pain, Shortness of breath, Lightheadedness , vomiting",
+                "Heartburn ,chest pain, Cold sweat",
+                "sweating, chest pain, breathlessness, indigestion"
+            ],
+            "responses": [
+                "You may be experiencing a heart attack. A heart attack is a serious medical emergency.\nHere\u2019s what you can try:\n1. Call 911 or your local emergency number immediately.\n2. Chew and swallow an aspirin if you're not allergic.\n3. Try to stay calm and sit or lie down while waiting for help."
+            ],
+            "Precaution": [
+                "Tips to avoid heart attack:\n1. Maintain a heart-healthy diet.\n2. Exercise regularly.\n3. Manage stress and get adequate sleep.\n4. Quit smoking and limit alcohol consumption."
+            ]
+        },
+        {
+            "tag": "Varicose Veins",
+            "patterns": [
+                "fatigue, bruising, swollen legs, swollen blood vessels, prominent veins on calf, cramps, obesity",
+                "swollen legs, swollen blood vessels, prominent veins on calf, cramps, obesity",
+                "fatigue, bruising, swollen legs, cramps, obesity"
+            ],
+            "responses": [
+                "Looks like it could be Varicose Veins. Varicose veins are swollen and twisted veins that can be painful.\nHere\u2019s what you can try:\n1. Elevate your legs when resting.\n2. Wear compression stockings.\n3. Exercise regularly.\n4. Consult a doctor for severe symptoms."
+            ],
+            "Precaution": [
+                "Tips to avoid varicose veins:\n1. Elevate your legs regularly.\n2. Wear compression stockings.\n3. Exercise and maintain a healthy weight.\n4. Avoid prolonged periods of sitting or standing."
+            ]
+        },
+        {
+            "tag": "Vertigo",
+            "patterns": [
+                "spinning movements, headache, vomiting, nausea, unsteadiness, loss of balance",
+                "nausea, unsteadiness, loss of balance",
+                "sunsteadiness, spinning movements, loss of balance"
+            ],
+            "responses": [
+                "Sounds like you might have (Vertigo) Paroxysmal Positional Vertigo. It is a type of vertigo characterized by sudden spinning sensations.\nHere\u2019s what you can try:\n1. Consult an ENT specialist or neurologist for evaluation and diagnosis.\n2. Undergo specific positional maneuvers as advised by the healthcare provider.\n3. Avoid sudden head movements that trigger symptoms.\n4. Follow prescribed treatment and exercises."
+            ],
+            "Precaution": [
+                "Tips to avoid vertigo:\n1. Avoid sudden head movements.\n2. Stay hydrated and maintain a balanced diet.\n3. Manage stress.\n4. Consider vestibular rehabilitation therapy if recommended by a healthcare provider."
+            ]
+        },
+        {
+            "tag": "Dizziness",
+            "patterns": [
+                "spinning movements, dizziness, ear pain, vomiting, visual disturbances, nausea, unsteadiness, loss of balance",
+                "dizziness, vomiting, visual disturbances",
+                "spinning movements, ear pain, visual disturbances, loss of balance"
+            ],
+            "responses": [
+                "Looks like you're dealing with Dizziness. This is a symptom that can have various underlying causes.\nHere\u2019s what you can try:\n1. Rest in a safe place to prevent falls.\n2. Stay hydrated.\n3. Avoid sudden changes in position.\n4. Consult a doctor to determine the cause of dizziness."
+            ],
+            "Precaution": [
+                "Tips to avoid dizziness:\n1. Stay hydrated and eat regular meals.\n2. Avoid excessive alcohol and caffeine.\n3. Use assistive devices if needed.\n4. Manage underlying medical conditions with the help of a healthcare provider."
+            ]
+        },
+        {
+            "tag": "Anemia",
+            "patterns": [
+                "shortness of breath, fast heartbeat, fatigue, cold hands and feets, dizziness, headache, pale skin, irregular menstrual period, poor concentration, brittle nails, weakness"
+            ],
+            "responses": [
+                "Looks like you're dealing with Anemia. This is a condition characterized by a shortage of red blood cells or insufficient hemoglobin to carry oxygen to the body's tissues.\nHere\u2019s what you can try:\n1. Determine and treat the underlying cause of anemia.\n2. Increase iron intake through diet or supplements.\n3. Follow a balanced diet rich in vitamins and minerals.\n4. Consult a hematologist for evaluation and management."
+            ],
+            "Precaution": [
+                "Tips to avoid anemia:\n1. Eat a diet rich in iron, folate, and vitamin B12.\n2. Consider iron or vitamin supplements as advised.\n3. Treat underlying causes of anemia.\n4. Follow up with regular blood tests."
+            ]
+        },
+        {
+            "tag": "Eczema",
+            "patterns": [
+                "itchy and inflamed skin, redness, rash",
+                "itchy skin, redness, rash"
+            ],
+            "responses": [
+                "Looks like it could be Eczema (Atopic Dermatitis). It's a skin condition characterized by itchy and inflamed patches of skin.\nHere\u2019s what you can try:\n1. Consult a dermatologist for diagnosis and treatment.\n2. Moisturize regularly and avoid triggers that worsen eczema.\n3. Topical corticosteroids and other medications can help manage symptoms."
+            ],
+            "Precaution": [
+                "Tips to avoid eczema:\n1. Keep skin moisturized and avoid irritants.\n2. Use hypoallergenic products.\n3. Manage stress to prevent flare-ups.\n4. Consider topical treatments as prescribed by a dermatologist."
+            ]
+        },
+        {
+            "tag": "Lupus",
+            "patterns": [
+                "joint pain, skin rash, fatigue, fever",
+                "joint pain, skin rash, stiffness , swelling",
+                "skin rash, stiffness , swelling"
+            ],
+            "responses": [
+                "Sounds like you might have Lupus (Systemic Lupus Erythematosus). It's an autoimmune disease that can affect various parts of the body.\nHere\u2019s what you can try:\n1. Consult a healthcare professional for diagnosis and management.\n2. Treatment may involve medications to control inflammation and symptoms."
+            ],
+            "Precaution": [
+                "Tips to avoid lupus:\n1. Manage stress and get adequate rest.\n2. Use sunscreen and avoid UV exposure.\n3. Take prescribed medications and follow treatment plans.\n4. Maintain regular check-ups with a rheumatologist."
+            ]
+        },
+        {
+            "tag": "Celiac Disease",
+            "patterns": [
+                "digestive discomfort, diarrhea, weight loss, skin rash (dermatitis herpetiformis)",
+                "digestive discomfort, diarrhea, weight loss, skin rash"
+            ],
+            "responses": [
+                "Looks like it could be Celiac Disease. It's an autoimmune disorder triggered by the consumption of gluten.\nHere\u2019s what you can try:\n1. Consult a healthcare professional for diagnosis and dietary guidance.\n2. A gluten-free diet is the primary treatment for Celiac Disease."
+            ],
+            "Precaution": [
+                "Tips to avoid celiac disease:\n1. Maintain a gluten-free diet if diagnosed.\n2. Read food labels and be vigilant about cross-contamination.\n3. Get regular check-ups with a gastroenterologist.\n4. Seek support from a registered dietitian."
+            ]
+        },
+        {
+            "tag": "Fibromyalgia",
+            "patterns": [
+                "widespread pain, fatigue, sleep disturbances, cognitive difficulties",
+                "widespread pain, fatigue, sleep"
+            ],
+            "responses": [
+                "Sounds like you might have Fibromyalgia. It's a chronic pain condition that can affect muscles and soft tissues.\nHere\u2019s what you can try:\n1. Consult a healthcare professional for diagnosis and treatment.\n2. Treatment often involves medications, physical therapy, and lifestyle adjustments."
+            ],
+            "Precaution": [
+                "Tips to avoid fibromyalgia:\n1. Manage stress and get adequate sleep.\n2. Exercise regularly and maintain a balanced diet.\n3. Consider physical therapy and pain management techniques.\n4. Seek support from a healthcare provider."
+            ]
+        },
+        {
+            "tag": "Atrial Fibrillation",
+            "patterns": [
+                "irregular heartbeat, dizziness, fatigue",
+                "irregular heartbeat, palpitations, dizziness, fatigue"
+            ],
+            "responses": [
+                "Sounds like you might have Atrial Fibrillation (AFib). It's an irregular heart rhythm that can lead to various cardiovascular issues.\nHere\u2019s what you can try:\n1. Consult a cardiologist for diagnosis and treatment.\n2. Medications and procedures may be prescribed to manage AFib and reduce stroke risk."
+            ],
+            "Precaution": [
+                "Tips to avoid atrial fibrillation:\n1. Maintain a heart-healthy lifestyle.\n2. Manage blood pressure and cholesterol.\n3. Follow prescribed medications as directed.\n4. Avoid excessive alcohol and caffeine consumption."
+            ]
+        },
+        {
+            "tag": "Pancreatitis",
+            "patterns": [
+                "severe abdominal pain, nausea, vomiting, fever,Rapid heart rate",
+                "severe abdominal pain, vomiting, fever",
+                "abdominal pain, nausea, vomiting, fever"
+            ],
+            "responses": [
+                "Sounds like you might have Pancreatitis. It's an inflammation of the pancreas that can cause digestive problems.\nHere\u2019s what you can try:\n1. Consult a healthcare professional for diagnosis and treatment.\n2. Treatment may involve hospitalization, fasting, and pain management."
+            ],
+            "Precaution": [
+                "Tips to avoid pancreatitis:\n1. Limit alcohol consumption or abstain.\n2. Eat a low-fat diet.\n3. Manage underlying causes such as gallstones or high triglycerides.\n4. Take prescribed medications and follow treatment plans."
+            ]
+        },
+        {
+            "tag": "Chronic Kidney Disease",
+            "patterns": [
+                "fatigue, swelling in legs and ankles, changes in urine output",
+                "fatigue, changes in urine output"
+            ],
+            "responses": [
+                "Looks like it could be Chronic Kidney Disease (CKD). It's a progressive condition that affects kidney function.\nHere\u2019s what you can try:\n1. Consult a healthcare professional for diagnosis and management.\n2. Medications and lifestyle changes can help slow the progression of CKD."
+            ],
+            "Precaution": [
+                "Tips to avoid chronic kidney disease:\n1. Manage underlying health conditions.\n2. Maintain a balanced diet and healthy weight.\n3. Stay hydrated.\n4. Get regular check-ups with a nephrologist."
+            ]
+        },
+        {
+            "tag": "IBS",
+            "patterns": [
+                "abdominal pain, bloating, diarrhea, constipation",
+                "abdominal pain, bloating, constipation"
+            ],
+            "responses": [
+                "Looks like it could be Irritable Bowel Syndrome (IBS). It's a common gastrointestinal disorder characterized by digestive discomfort.\nHere\u2019s what you can try:\n1. Consult a gastroenterologist for diagnosis and management.\n2. Dietary changes and medications can help manage IBS symptoms."
+            ],
+            "Precaution": [
+                "Tips to avoid IBS (Irritable Bowel Syndrome):\n1. Identify and avoid trigger foods.\n2. Maintain a high-fiber diet.\n3. Manage stress and consider relaxation techniques.\n4. Follow a regular eating schedule."
+            ]
+        },
+        {
+            "tag": "Multiple Sclerosis",
+            "patterns": [
+                "fatigue, muscle weakness, numbness, difficulty walking,vision problems, problems with thinking, learning and planning",
+                "muscle weakness, numbness, difficulty walking,vision problems"
+            ],
+            "responses": [
+                "Sounds like you might have Multiple Sclerosis (MS). It's a neurological disease that affects the central nervous system.\nHere\u2019s what you can try:\n1. Consult a neurologist for diagnosis and treatment.\n2. Medications and physical therapy can help manage MS symptoms and slow progression."
+            ],
+            "Precaution": [
+                "Tips to avoid multiple sclerosis:\n1. Maintain a balanced diet and exercise regularly.\n2. Manage stress.\n3. Follow prescribed medications and treatments.\n4. Get regular check-ups with a neurologist."
+            ]
+        },
+        {
+            "tag": "medical_centers",
+            "patterns": [
+                "Where is the nearest hospital",
+                "Find me a clinic",
+                "Nearby medical centers",
+                "hospital near me",
+                "I need a doctor"
+            ],
+            "responses": [
+                "Sure\u2014let me find hospitals near you! Click the button below."
+            ]
+        }
+    ]
+}
